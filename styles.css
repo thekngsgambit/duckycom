@@ -1,4 +1,4 @@
-*{
+* {
     margin-top: 10px;
     margin: auto;
     font-family:'Courier New', Courier, monospace;
@@ -6,24 +6,20 @@
     background-color: #96ADC8;
 }
 
-hr{
+hr{ 
     height: 3px;
     width: 750px;
     border-color: black;
     fill: black;
 }
-.pictures{
-    display: flex;
-    gap: 50px;
+
+img {
+	cursor: pointer;
+	border-width: 2px;
+	border-color: black;
 }
 
-.picsline2{
+.pictures {
     display: flex;
     gap: 50px;
-}
-.monalisa :hover{
-    cursor: pointer;
-    border-width: 2px;
-    border-color: black;
-    
 }
