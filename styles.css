@@ -14,9 +14,12 @@ hr{
 }
 
 img {
+    border-radius: 2rem;
+}
+
+img:hover {
 	cursor: pointer;
-	border-width: 2px;
-	border-color: black;
+	border: 2px solid;
 }
 
 .pictures {
